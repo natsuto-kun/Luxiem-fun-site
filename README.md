@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://wikiwiki.jp/nijisanji/Luxiem">
-    <img alt="Luxiem" src="src/images/luxiem-logo.png" width="60" />
+    <img alt="Luxiem" src="src/images/luxiem-logo.png" width="400" />
   </a>
 </p>
 <h1 align="center">
