@@ -1,12 +1,12 @@
 import * as React from "react"
 import styled from "styled-components";
 
-const Ike = () => {
+const TopPage = () => {
     return (
         <div>
-            <p>Ikeの紹介ページ</p>
+            <p>I looooooove Luxiem!</p>
         </div>
     );
 }
 
-export default Ike;
+export default TopPage;
