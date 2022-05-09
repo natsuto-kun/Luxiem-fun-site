@@ -1,15 +1,9 @@
-import { FC } from 'react';
 import * as React from "react"
 import styled from "styled-components";
-import { Header } from "../components/header";
 import "modern-css-reset";
 import { Link } from "gatsby";
-import Ike from "./Ike";
-import Luca from "./Luca";
-import Mysta from "./Mysta";
-import Shu from "./Shu";
-import Vox from "./Vox";
-import TopPage from "./TopPage";
+import { Layout } from "../layouts";
+import Top from "./Top";
 
 // styles
 const MemberPage = styled.div`
@@ -18,19 +12,18 @@ const MemberPage = styled.div`
 `
 
 // markup
-const IndexPage: FC = () => {
+const IndexPage: React.VFC = () => {
   return (
-    <main>
-      <Header></Header>
+    <Layout>
       <MemberPage>
-        <Link to="/TopPage">TopPage</Link>
+        <Top></Top>
         <Link to="/Ike">Ike</Link>
         <Link to="/Luca">Luca</Link>
         <Link to="/Mysta">Mysta</Link>
         <Link to="/Shu">Shu</Link>
         <Link to="/Vox">Vox</Link>
       </MemberPage>
-    </main>
+    </Layout>
   )
 }
 
