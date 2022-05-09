@@ -1,11 +1,12 @@
 import * as React from "react"
 import styled from "styled-components";
+import VoxPage from "../components/domain/Vox";
 
 const Vox = () => {
     return (
-        <div>
-            <p>Voxの紹介ページ</p>
-        </div>
+        <>
+          <VoxPage></VoxPage>
+        </>
     );
 }
 

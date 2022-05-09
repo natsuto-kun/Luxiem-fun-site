@@ -1,11 +1,12 @@
 import * as React from "react"
 import styled from "styled-components";
+import LucaPage from "../components/domain/Luca";
 
 const Luca = () => {
     return (
-        <div>
-            <p>Lucaの紹介ページ</p>
-        </div>
+        <>
+          <LucaPage></LucaPage>
+        </>
     );
 }
 

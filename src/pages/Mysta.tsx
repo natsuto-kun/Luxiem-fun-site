@@ -1,11 +1,12 @@
 import * as React from "react"
 import styled from "styled-components";
+import MystaPage from "../components/domain/Mysta";
 
 const Mysta = () => {
     return (
-        <div>
-            <p>Mystaの紹介ページ</p>
-        </div>
+        <>
+          <MystaPage></MystaPage>
+        </>
     );
 }
 

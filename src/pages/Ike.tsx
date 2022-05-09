@@ -1,11 +1,12 @@
 import * as React from "react"
 import styled from "styled-components";
+import IkePage from "../components/domain/Ike";
 
 const Ike = () => {
     return (
-        <div>
-            <p>Ikeの紹介ページ</p>
-        </div>
+        <>
+          <IkePage></IkePage>
+        </>
     );
 }
 
