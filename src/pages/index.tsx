@@ -7,8 +7,7 @@ import Top from "./Top";
 
 // styles
 const MemberPage = styled.div`
-  display: grid;
-  grid-template-rows: repeat(6, 1fr);
+
 `
 
 // markup
@@ -17,11 +16,6 @@ const IndexPage: React.VFC = () => {
     <Layout>
       <MemberPage>
         <Top></Top>
-        <Link to="/Ike">Ike</Link>
-        <Link to="/Luca">Luca</Link>
-        <Link to="/Mysta">Mysta</Link>
-        <Link to="/Shu">Shu</Link>
-        <Link to="/Vox">Vox</Link>
       </MemberPage>
     </Layout>
   )

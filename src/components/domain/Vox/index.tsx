@@ -1,9 +1,11 @@
 import React from "react";
+import styled from "styled-components";
+import { TopText } from "../Top/index";
 
 const VoxPage: React.VFC = () => {
   return (
     <>
-      <div>Voxの紹介ページ</div>
+      <TopText>Voxの紹介ページ</TopText>
     </>
   );
 };

@@ -1,11 +1,14 @@
 import * as React from "react"
 import styled from "styled-components";
 import ShuPage from "../components/domain/Shu";
+import { Layout } from "../layouts";
 
 const Shu: React.VFC = () => {
     return (
         <>
-          <ShuPage></ShuPage>
+          <Layout>
+            <ShuPage></ShuPage>
+          </Layout>
         </>
     );
 }

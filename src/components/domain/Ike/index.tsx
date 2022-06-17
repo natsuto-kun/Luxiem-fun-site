@@ -1,9 +1,11 @@
 import React from "react";
+import styled from "styled-components";
+import { TopText } from "../Top/index";
 
 const IkePage: React.VFC = () => {
   return (
     <>
-      <div>Ikeの紹介ページ</div>
+      <TopText>Ikeの紹介ページ</TopText>
     </>
   );
 };
