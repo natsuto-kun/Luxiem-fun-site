@@ -1,11 +1,15 @@
 import * as React from "react"
 import styled from "styled-components";
+import MystaPage from "../components/domain/Mysta";
+import { Layout } from "../layouts";
 
-const Mysta = () => {
+const Mysta: React.VFC = () => {
     return (
-        <div>
-            <p>Mystaの紹介ページ</p>
-        </div>
+        <>
+          <Layout>
+            <MystaPage></MystaPage>
+          </Layout>
+        </>
     );
 }
 

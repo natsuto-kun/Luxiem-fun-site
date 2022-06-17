@@ -1,11 +1,15 @@
 import * as React from "react"
 import styled from "styled-components";
+import IkePage from "../components/domain/Ike";
+import { Layout } from "../layouts";
 
-const Ike = () => {
+const Ike: React.VFC = () => {
     return (
-        <div>
-            <p>Ikeの紹介ページ</p>
-        </div>
+        <>
+          <Layout>
+            <IkePage></IkePage>
+          </Layout>
+        </>
     );
 }
 

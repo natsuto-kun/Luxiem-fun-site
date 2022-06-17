@@ -1,11 +1,15 @@
 import * as React from "react"
 import styled from "styled-components";
+import LucaPage from "../components/domain/Luca";
+import { Layout } from "../layouts";
 
-const Luca = () => {
+const Luca: React.VFC = () => {
     return (
-        <div>
-            <p>Lucaの紹介ページ</p>
-        </div>
+        <>
+          <Layout>
+            <LucaPage></LucaPage>
+          </Layout>
+        </>
     );
 }
 

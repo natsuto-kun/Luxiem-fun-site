@@ -1,11 +1,15 @@
 import * as React from "react"
 import styled from "styled-components";
+import VoxPage from "../components/domain/Vox";
+import { Layout } from "../layouts";
 
-const Vox = () => {
+const Vox: React.VFC = () => {
     return (
-        <div>
-            <p>Voxの紹介ページ</p>
-        </div>
+        <>
+          <Layout>
+            <VoxPage></VoxPage>
+          </Layout>
+        </>
     );
 }
 
